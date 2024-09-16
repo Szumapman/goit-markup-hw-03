@@ -1,0 +1,149 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: var(--navy-blue);
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.list-style-type-none {
+    list-style-type: none;
+}
+
+.header {
+    border-bottom: 1px solid var(--cornflower);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo-dark {
+    color: var(--navy-blue);
+}
+
+.logo-light {
+    color: var(--cloud);
+}
+
+.navigation {
+    font-weight: 500;
+    color: var(--navy-blue);
+}
+
+.nav-item:hover {
+    color: var(--ocean);
+}
+
+.nav-item:focus {
+    color: var(--ocean);
+    text-decoration: underline;
+}
+
+.address {
+    font-style: normal;
+    color: var(--slate);
+}
+
+.top-baner-section {
+    background-color: var(--navy-blue);
+}
+
+.title {
+    color: var(--white);
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.button:hover {
+    background-color: var(--ocean);
+}
+
+.section-two {
+    background-color: var(--cloud);
+}
+
+.hidden {
+    display: none;
+}
+
+.team-card {
+    width: 264px;
+    background-color: var(--white);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    padding: 0 0 32px 0;
+    gap: 32px;
+    text-align: center;
+}
+
+.section-three-item {
+    border: 1px solid var(--cornflower);
+    width: 360px;
+    padding: 32px 16px;
+    gap: 8px;
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-text {
+    font-weight: 400;
+    color: var(--cloud);
+}
