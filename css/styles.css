@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio-list-item-description {
     padding: 32px 16px;
-    border: 0.8px solid var(--cornflower);
+    border: 1px solid var(--cornflower);
     border-top: none;
 }
 
@@ -268,7 +268,12 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: var(--navy-blue);
 }
 
+.footer-content {
+    padding: 100px 156px;
+}
+
 .footer-text {
     font-weight: 400;
     color: var(--cloud);
+    margin-top: 16px;
 }
