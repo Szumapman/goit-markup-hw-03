@@ -13,6 +13,12 @@
     --dairy: #FCFCFC;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
@@ -21,6 +27,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     background-color: var(--white);
+    margin: 0px;
 }
 
 a {
@@ -41,12 +48,27 @@ h3 {
     line-height: 1.2;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .list-style-type-none {
     list-style-type: none;
 }
 
+
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border-bottom: 1px solid var(--cornflower);
+    height: 72px;
 }
 
 .logo {
@@ -68,8 +90,16 @@ h3 {
 }
 
 .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-weight: 500;
     color: var(--navy-blue);
+}
+
+.main-nav {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-item:hover {
@@ -87,23 +117,37 @@ h3 {
 }
 
 .top-baner-section {
+    height: 600px;
+    padding: 188px 0;
     background-color: var(--navy-blue);
+}
+
+.top-baner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
     color: var(--white);
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 .button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white);
     background-color: var(--iris);
     cursor: pointer;
+    height: 56px;
+    min-width: 169px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     border-radius: 4px;
