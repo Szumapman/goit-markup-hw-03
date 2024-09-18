@@ -39,7 +39,7 @@
 
 `B6` Stworzona jest ogólna pomocnicza klasa .container do centralizacji i ograniczenia szerokości treści.
 
-`B8` Szerokość "kontenera" odpowiada projektowi i wynosi 1158px. # w projekcie szerokość to 1440px 
+`B8` Szerokość "kontenera" odpowiada projektowi i wynosi 1158px.
 
 `B9` "Kontener" obejmuje treść nagłówka, stopki i sekcji. Innymi słowy, znajduje się wewnątrz nich.
 
